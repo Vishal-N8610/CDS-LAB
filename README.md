@@ -21,34 +21,36 @@ Step 8) Stop.
 
 [flowchart](https://github.com/user-attachments/assets/30c167bf-5071-4c9d-9f71-fb3f541b3182)
 
+
 Python Code Example Linear Search:
 
-def linearSearch(data, item):
+    def linearSearch(data, item):
     
-    for i in range(len(data)):
+        for i in range(len(data)):
     
-    if data[i] == item:
+        if data[i] == item:
     
-    return I
+        return I
 
-return -1
+    return -1
 
-data = [1, 9, 8, 7, 6, 3, 11, 4, 6, 9, 7, 2, 0, 19, -10]
+    data = [1, 9, 8, 7, 6, 3, 11, 4, 6, 9, 7, 2, 0, 19, -10]
 
-item = int(input("Enter a number to search: "))
+    item = int(input("Enter a number to search: "))
 
-idx = linearSearch(data, item)
+    idx = linearSearch(data, item)
 
-if idx >= 0:
+    if idx >= 0:
 
-    print("{} is found at index {}".format(item, idx))
+        print("{} is found at index {}".format(item, idx))
 
-else :
+    else :
 
-    print("{} was not found".format(item))
+        print("{} was not found".format(item))
 
 
 Output:
 
 Enter a number to search: -10
+
 -10 is found at index 14
