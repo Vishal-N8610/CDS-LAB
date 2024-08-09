@@ -1,4 +1,5 @@
 What is Linear Search?
+
 Linear search is one of the simplest search algorithms. From a given list or array, it searches for the given element one by one. Linear Search iterates over the whole list and checks if any particular element is equal to the search element. It’s also called the sequential search.
 
 Here are the steps of the flowchart:
